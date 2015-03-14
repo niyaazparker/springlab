@@ -1,7 +1,7 @@
 // Load Video
 function loadVideo(playerUrl, autoplay) {
   swfobject.embedSWF(
-      playerUrl + '&rel=1&border=0&fs=1&showinfo=1&autohide=1&autoplay=' + 
+      playerUrl + '&rel=1&border=0&fs=1&showinfo=0&autohide=1&autoplay=' + 
       (autoplay?1:0), 'player', '450', '250', '9.0.0', false, 
       false, {allowfullscreen: 'true'});
 }
