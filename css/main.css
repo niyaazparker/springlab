@@ -3,14 +3,24 @@
    custom styles
    ========================================================================== */
    
-
-
+body {background:#cc181e;}
+.container {padding-top: 50px; background: #ffffff}
+.container h2 {color:#cc181e;}
 #videoList {display:inline-block}
-#playerContainer {display:inline-block}
+#videoList ul li {margin-bottom:10px; list-style: none; cursor: pointer}
+#videoList ul li h3,#videoList ul li span {margin:0;padding: 0}
+#videoList ul li .description {height: 50px;line-height: 15px;overflow: hidden;}
+#playerContainer {display:inline-block; }
+#player {margin-bottom:10px; width: 100%; height: 500px }
+.videos,.videos li {padding:0;}
 
 
 
+@media (max-width: 600px) { 
+	.videos li div img {width:100%; height: 250px}
+	#player {margin-bottom:10px; width: 100%; height: 250px }
 
+}
 
 
 
