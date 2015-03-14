@@ -21,7 +21,7 @@ function showVideoList(data) {
     var viewcount = entry.yt$statistics.viewCount;
     html.push('<li class="col-lg-12 col-md-12 col-xs-12"  onclick="loadVideo(\'', playerUrl, '\', true)">',
               '<div class="col-lg-2 col-md-2 col-xs-12"><img src="', 
-              thumbnailUrl, '" width="130" height="97"/></div><div class="col-lg-10 col-md-10 col-xs-12"><h3 class="titlec">', title, '...</h3><span class="views col-lg-12 col-md-12 col-xs-12">Views: ', viewcount,'</span><span class="description col-lg-12 col-md-12 col-xs-12">', description,'</span></li></div>');
+              thumbnailUrl, '" width="130" height="97"/></div><div class="col-lg-10 col-md-10 col-xs-12"><h3 class="titlec">', title, '...</h3><span class="views col-lg-12 col-md-12 col-xs-12"><strong>Views: ', viewcount,'</strong></span><span class="description col-lg-12 col-md-12 col-xs-12">', description,'</span></li></div>');
   }
 
 

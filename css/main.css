@@ -13,7 +13,8 @@ body {background:#cc181e;}
 #playerContainer {display:inline-block; }
 #player {margin-bottom:10px; width: 100%; height: 500px; border: 5px solid #cc181e }
 .videos,.videos li {padding:0;}
-
+.videos li div img {width:100%; height: auto;}
+.views, .description {color:#666666;}
 
 
 @media (max-width: 600px) { 
